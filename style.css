@@ -1,0 +1,246 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#Jumbotron{
+    background-image:url('./immagini/artificialHead.jpg');
+    background-position:top;
+    max-height:600px;
+    width:100%;
+}
+#jumboNav{
+    background-position:center;
+  box-shadow: inset 100vh 100vw 100px rgba(0, 0, 0, 0.65);
+}
+#jumboNav button{
+    background-color: green;
+}
+.paperino{
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.paperino a {
+    text-decoration:none;
+    color:lightgreen;
+}
+.paperino a:hover{
+    cursor:pointer;
+    color:goldenrod;
+}
+.bottoneC{
+    display: none;
+}
+
+a{
+    text-decoration:none;}
+    a:active{
+        color:yellow;
+    }
+
+    .greenY{
+        color:lightgreen;
+    }
+    .greenZ{
+        color:rgba(37, 37, 184, 0.801);
+    }
+figcaption{
+    font-weight: bolder;
+    color:lightgreen;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+ol{
+    margin:15px;
+    padding:0;
+}
+li{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    font-weight:bold;
+}
+.navlist{
+   display:flex;
+   flex-direction:row;
+   text-align:center;
+   justify-content:space-around;
+}
+.nav-item:hover{
+    transform: scale(110%);
+}
+.backmenu{
+    background-color:grey;
+}
+#footerList{
+    background-color: black;
+}
+
+#footerData{
+    border:none;
+    color:white;
+}
+
+.footerVoice{
+    color:white;
+}
+.footerVoice:hover{
+    transform:scale(110%);
+   color:goldenrod;
+}
+.borderG{
+    border:10px solid lightgray;
+}
+.navbar{
+    margin-top:-10px; 
+}
+.where{
+    background-image:url('./immagini/artificialHead.jpg');
+    background-position:top;
+}
+.blacked{
+    color:black;
+}
+.text-greenY{
+    color:rgb(119, 174, 34);
+}
+.zIndexTop{
+    z-index: 10;
+    position:absolute;
+}
+nav div ul li a:hover { color: goldenrod !important; }
+nav div ul li a :active{ color: goldenrod !important; }
+nav div a:hover { color: goldenrod !important; }
+.navbar-nav .nav-link.show {
+    color:goldenrod;
+   
+}
+.navbar-nav .nav-link.show ul li{
+    cursor:pointer;
+}
+.textLg{
+    font-weight:normal;
+    color:rgb(173, 178, 180);
+}
+.orange{
+    color:orangered;
+}
+
+.rounderCircus{
+    border-radius:170px 170px 100px 50px;
+}
+.brain{
+    position:relative;
+    bottom:45px;
+    right:10px;
+}
+
+.mouth{
+   
+    box-shadow: inset 100vh 100vw 100px rgba(0, 0, 0, 0.52);
+}
+.parigi{
+    height:500px;
+}
+
+.Assist{
+    text-decoration:none;
+    color:goldenrod;
+}
+.titleSection{
+    color:gold;
+}
+.bordoForm{
+    border:5px solid darkblue;
+}
+#casanova{
+    position:relative;
+}
+#houdini{position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+display:none;
+}
+#houdini:hover{
+display:block;
+}
+
+#pippo{text-align:center;}
+
+@media(max-width:1320px){
+    .mouth{
+        margin-top:20px;
+    }}
+
+@media(max-width:1260px){
+    .mouth{
+        margin-top:40px;
+    }
+}
+@media(min-width:1211px){
+    .mappa{
+        height:184.64px;
+    }
+}
+@media(max-width:1210px){
+    .mappa{
+        height:154.64px;
+    }
+}
+@media(max-width:1170px){
+    .mouth{
+        margin-top:60px;
+    }
+   
+}
+@media(max-width:1090px){
+.mouth{margin-top:80px;}
+}
+@media(max-width:990px){
+    
+    .mouth{
+        box-shadow: none;
+        margin-top:60px;
+    }
+    .pluto{display: block;
+    position:relative;}
+   
+    #pippo img{
+       position:absolute;
+       top:60%;
+       left:50%;
+       transform:translate(-50%,-50%);
+       margin-top: 1rem;
+       z-index: -10;
+    }
+    #pippo figcaption{
+        position:relative;
+        top:50%;
+       left:50%;
+       transform: translate(-50%,-50%);
+       width:80%;
+    }
+    
+    .mappa{
+        height:191.96px;
+    }
+    
+    
+}
+
+
+
+@media(max-width:776px){
+.paperino{
+    text-align: center;
+}
+#pippo img{
+    margin-right:200px;
+   
+}
+
+
+}

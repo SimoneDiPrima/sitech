@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+  <header id="Jumbotron" class="text-white bg-light">
+    <nav class="navbar navbar-expand-lg zIndexTop" id="jumboNav">
+      <div class="container-fluid">
+        <a class="navbar-brand col-2" href="#">
+          <img src="./immagini/logo.jpg" class="img-thumbnail" alt="">
+        </a>
+       
+          <button class="navbar-toggler mt-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="pippo">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div  class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link greenY fw-bolder" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle greenY fw-bolder" href="./chiSiamo.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong class="titleMenu">Chi Siamo</strong>
+              </a>
+              <ul class="zIndexTop dropdown-menu greenY fw-bolder paperino ">
+                <li><a class="dropdown-item" href="./chiSiamo/azienda.html">Azienda</a></li>
+                <li><a class="dropdown-item" href="./chiSiamo/certificazioni.html">Certificazioni</a></li>
+                <li><a class="dropdown-item" href="./chiSiamo/efficienza.html">Efficienza</a></li>
+                <li><a class="dropdown-item" href="./chiSiamo/parcoMacchine.html">Parco Macchine</a></li>
+                <li><a class="dropdown-item" href="./chiSiamo/vision.html">Vision</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown greenY fw-bolder">
+              <a class="nav-link dropdown-toggle greenY fw-bolder mcdon" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Servizi</strong>
+              </a>
+              <ul class="zIndexTop dropdown-menu greenY fw-bolder paperino">
+                <li><a class="dropdown-item" href="./servizi/assistenza.html">Assistenza</a></li>
+                <li><a class="dropdown-item" href="./servizi/helpdesk.html">Helpdesk</a></li>
+                <li><a class="dropdown-item" href="./servizi/riparazione.html">On-site</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link greenY fw-bolder" href="dovesiamo.html">
+                Dove Siamo
+              </a>
+            </li>
+          </ul>
+          <a href="./servizi/helpRemote.html" id="casanova" class="greenY fw-bolder">
+            <img src="./immagini/tVicon.ico" class="my-2" alt="">
+            <strong id="houdini">Chiedici Aiuto</strong>
+          </a>
+         
+        </div>
+      </div>
+    </nav>
+ 
+    <div class="container py-5 col-8 z-1" id="ammamata">
+      <div>
+        <div id="carouselExampleAutoplaying" class="carousel slide pt-5 brain" data-bs-ride="carousel">
+          <div class="carousel-inner pt-5">
+            <h1 class="text-center pb-3">BENVENUTO IN SITECH!</h1>
+            <div class="carousel-item active text-center text-center">
+              <img src="./immagini/appletv.jpg" class="img-fluid col-lg-6 col-md-8 col-sm-8 rounderCircus" alt="Logo">
+              <figcaption class="text-center py-5 mouth"><em class="marginN fw-bold">"Agisci come se le tue azioni potessero fare la differenza.La fanno."</em></figcaption>
+            </div>
+            <div class="carousel-item text-center">
+              <img src="./immagini/ink-printing-inside-of-inkjet-printer-picjumbo-com.jpg" class="img-fluid col-lg-6 col-md-8 col-sm-8  rounderCircus" alt="Gioco">
+              <figcaption class="text-center py-5 mouth"><em class="marginN fw-bold">“Le macchine mi colgono di sorpresa con grande frequenza.”</em></figcaption>
+            </div>
+            <div class="carousel-item text-center">
+              <img src="immagini/cmyk-ink-cartridges-in-a-printer-picjumbo-com.jpg" class="img-fluid col-lg-6 col-md-8 col-sm-8  rounderCircus" alt="Sfondo">
+              <figcaption class="text-center py-5 mouth"><em class="marginN fw-bold">“La scienza di oggi è la tecnologia di domani.”</em></figcaption>
+            </div>
+          </div>
+          <button class="carousel-control-prev bottoneC" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next bottoneC" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+    
+</header>
+    <div class="container">
+      <p class="py-4 fw-bolder">
+        La S.I. Tech è una società gestita professionalmente, che offre servizi di supporto hardware e software.
+        La S.I.Tech dispone di una vasta base di talenti dove ne hai più bisogno: in luoghi professionali da cui può gestire l'infrastruttura e monitorarla, e gestendo remotamente le tue richieste.
+        Siamo una realtà dinamica che ha saputo superare le sfide di questi ultimi anni e trasformarle in opportunità di crescita.
+        La profonda conoscenza dei processi, l’esperienza tecnologica e l’attenzione ai bisogni del Cliente sono alla base dei nostri successi.<br>
+        S.I.Tech si è fortemente specializzata nel tempo costruendo un modello di offerta personalizzabile per ogni tipologia di Cliente
+anche grazie ad importanti investimenti, soprattutto nel campo della formazione tecnica del personale.
+L’erogazione dei Servizi è garantita dalla dislocazione di tecnici specializzati su tutto il territorio Nazionale.
+      </p>
+      <div class="py-5 grid gap-3 d-flex flex-wrap justify-content-around justify-content-sm-center">
+      
+     
+        <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
+          <img src="immagini/artificialHead.jpg" class="card-img-top" alt="immagineCard" loading="lazy">
+          <div class="card-body text-center">
+            <h5 class="card-title">AZIENDA</h5>
+            <p class="card-text">Perchè i nostri partner si fidano di noi</p>
+            <a href="./chiSiamo/azienda.html" class="btn btn-primary">Scopri di piu</a>
+          </div>
+        </div>
+     
+        <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
+          <img src="immagini/modern-desktop-setup-and-white-headphones-picjumbo-com.jpg" class="card-img-top" alt="immagineCard" loading="lazy">
+          <div class="card-body text-center">
+            <h5 class="card-title">CERTIFICAZIONI</h5>
+            <p class="card-text">ti faresti mai operare da un medico laureato all università della vita?</p>
+            <a href="./chiSiamo/certificazioni.html" class="btn btn-primary">Scopri di piu</a>
+          </div>
+  
+        </div>
+        <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
+          <img src="immagini/deep-woman-colorful-eye-ultra-macro-close-up-picjumbo-com.jpg" class="card-img-top" alt="immagineCard" loading="lazy">
+          <div class="card-body text-center">
+            <h5 class="card-title">EFFICIENZA</h5>
+            <p class="card-text">“La mente è come un paracadute. Funziona solo se si apre.”</p>
+            <a href="./chiSiamo/efficienza.html" class="btn btn-primary">Scopri di piu</a>
+          </div>
+        </div>
+       
+        <div class="card  col-lg-3 col-md-6 col-sm-12"  style="width: 18rem;">
+          <img src="immagini/robot-playing-chess-artificial-intelligence-picjumbo-com.jpg" class="card-img-top" alt="immagineCard" loading="lazy">
+          <div class="card-body text-center">
+            <h5 class="card-title">PARCO MACCHINE</h5>
+            <p class="card-text">Come ci occupiamo della tua tecnologia e del tuo successo</p>
+            <a href="./chiSiamo/parcoMacchine.html" class="btn btn-primary">Scopri di piu</a>
+          </div>
+        </div>
+     
+        <div class="card col-lg-3 col-md-6 col-sm-12"  style="width: 18rem;">
+          <img src="immagini/night-owl-man-working-on-computer-at-night-picjumbo-com.jpg" class="card-img-top" alt="immagineCard" loading="lazy">
+          <div class="card-body text-center">
+            <h5 class="card-title">VISIONE</h5>
+            <p class="card-text">Come affrontando le sfide di oggi creiamo opportunità per il domani</p>
+            <a href="./chiSiamo/vision.html" class="btn btn-primary">Scopri di piu</a>
+          </div>
+  
+        </div>
+        <div class="card col-lg-3  col-md-6 col-sm-12"  style="width: 18rem;">
+          <img src="immagini/happy-and-sad-smiley-on-laptop-keyboard-picjumbo-com.jpg" class="card-img-top" alt="immagineCard" loading="lazy">
+          <div class="card-body text-center">
+            <h5 class="card-title">LAVORA CON NOI</h5>
+            <p class="card-text">Siamo sempre alla ricerca di nuovi talenti!</p>
+            <a href="./chiSiamo/work.html" class="btn btn-primary">Scopri di piu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footerList"> 
+      <div id="footerData" class="container d-flex justify-content-between text-white py-4 fw-bolder">
+        <ul>
+          <li><a class="footerVoice" href="index.html">Home</a></li>
+          <li><a class="footerVoice" href="./chiSiamo/azienda.html">L'Azienda</a></li>
+          <li><a class="footerVoice" href="./chiSiamo/certificazioni.html">Certificazioni</a></li>
+          <li><a class="footerVoice" href="./servizi/helpRemote.html">Contattaci</a></li>
+        </ul>
+        <ul>
+          <li><a class="footerVoice" href="./chiSiamo.html">Chi Siamo</a></li>
+          <li><a class="footerVoice" href="./chiSiamo/parcoMacchine.html">Parco Macchine</a></li>
+          <li><a class="footerVoice" href="./chiSiamo/efficienza.html">Visione Aziendale</a></li>
+          <li><a class="footerVoice" href="./dovesiamo.html">Dove Siamo</a></li>
+        </ul>
+        <ul>
+          <li><a class="footerVoice" href="./servizi.html">Servizi</a></li>
+          <li><a class="footerVoice" href="./servizi/staging.html">Staging</a></li>
+          <li><a class="footerVoice" href="./servizi/riparazione.html">Riparazioni</a></li>
+          <li><a class="footerVoice" href="./servizi/assistenza.html">Assistenza</a></li>
+        </ul>
+        <ul>
+          <li><a class="footerVoice" href="./dovesiamo.html">Dove Siamo</a></li>
+          <li><a class="footerVoice" href="./servizi/assistenza.html">assistenza</a></li>
+          <li><a class="footerVoice" href="./servizi/helpRemote.html">Hai bisogno di aiuto?</a></li>
+          <li><a class="footerVoice" href="./servizi/helpRemote.html">Home</a></li>
+        </ul>
+      </div>
+     </footer>
+</body>
+</html>
